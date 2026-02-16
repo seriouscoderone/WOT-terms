@@ -1,0 +1,9 @@
+# web-of-trust
+
+In cryptography, a web of trust is a concept used in [PGP](https://weboftrust.github.io/WOT-terms/docs/glossary/PGP.md), [GnuPG](https://weboftrust.github.io/WOT-terms/docs/glossary/gnu-privacy-guard.md), and other `OpenPGP`\-compatible systems to establish the authenticity of the binding between a public key and its owner.
+
+Its _decentralized_ trust model is an alternative to the centralized trust model of a public key infrastructure (`PKI`), which relies exclusively on a certificate authority (or a hierarchy of such). As with computer networks, there are many independent webs of trust, and any user (through their identity certificate) can be a part of, and a link between, multiple webs. The web of trust concept was first put forth by PGP creator Phil Zimmermann in 1992 in the manual for PGP.
+
+![Web of trust illustration](https://github.com/WebOfTrust/keri/raw/main/images/web-of-trust.png)
+
+More on [Wikipedia](https://en.wikipedia.org/wiki/Web_of_trust)

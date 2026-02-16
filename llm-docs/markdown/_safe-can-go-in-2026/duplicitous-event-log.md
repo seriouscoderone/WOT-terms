@@ -1,0 +1,5 @@
+# duplicitous-event-log
+
+This is a record of inconsistent event messages produced by a given controller or witness with respect to a given [KERL](https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-receipt-log.md). The duplicitous events are indexed to the corresponding event in a KERL.
+
+A duplicitous event is represented by a set of two or more provably mutually [inconsistent](https://weboftrust.github.io/WOT-terms/docs/glossary/inconsistency.md) event messages with respect to a KERL. Each [juror](https://weboftrust.github.io/WOT-terms/docs/glossary/juror.md) keeps a duplicitous event log (DEL) for each [controller](https://weboftrust.github.io/WOT-terms/docs/glossary/controller.md) and all designated witnesses with respect to a KERL. Any [validator](https://weboftrust.github.io/WOT-terms/docs/glossary/validator.md) may confirm [duplicity](https://weboftrust.github.io/WOT-terms/docs/glossary/duplicity.md) by examining a DEL.

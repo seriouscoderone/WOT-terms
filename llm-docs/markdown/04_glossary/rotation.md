@@ -1,0 +1,4 @@
+# rotation
+
+The operation of revoking and replacing the set of [authoritative](https://weboftrust.github.io/WOT-terms/docs/glossary/authoritative.md) [key pairs](https://weboftrust.github.io/WOT-terms/docs/glossary/key-pair.md) for an [AID](https://weboftrust.github.io/WOT-terms/docs/glossary/AID.md). This operation is made verifiable and [duplicity](https://weboftrust.github.io/WOT-terms/docs/glossary/duplicity.md) evident upon acceptance as a rotation event that is appended to the AID's [KEL](https://weboftrust.github.io/WOT-terms/docs/glossary/KEL.md).
+Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)

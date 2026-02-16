@@ -1,0 +1,4 @@
+# keridemlia
+
+It is a contraction of [KERI](https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-receipt-infrastructure.md) and [Kademlia](https://en.wikipedia.org/wiki/Kademlia). It's the distributed database of Witness IP-addresses based on a [Distributed Hash Table](https://weboftrust.github.io/WOT-terms/docs/glossary/distributed-hash-table.md). It also does the CNAME - stuff that [Domain Name](https://weboftrust.github.io/WOT-terms/docs/glossary/domain-name.md) Services (DNS) offers for KERI: the mapping between an identifier and it's controller AID stored in the KEL to its current wittness AID and the wittness AID to the IP address.
+(@henkvancann)

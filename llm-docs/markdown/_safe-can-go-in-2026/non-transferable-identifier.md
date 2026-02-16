@@ -1,0 +1,10 @@
+# non-transferable-identifier
+
+Controlling keys over this identifier cannot be rotated and therefore this identifier is [non-transferable](https://weboftrust.github.io/WOT-terms/docs/glossary/non-transferable.md) to other control.
+An identifier of this type has specific positive features like short-lived, peer to peer, one-time use, discardable, etc. that are very practical in certain use cases. Moreover non-transferable identifiers are much easier to govern than persistent identifiers that are [transferable](https://weboftrust.github.io/WOT-terms/docs/glossary/transferable.md).
+
+The KERI design approach is to build composable primitives instead of custom functionality that is so typical of other DKMI approaches:
+
+-   [transferable identifiers](https://weboftrust.github.io/WOT-terms/docs/glossary/transferable-identifier.md)
+-   non-transferable identifiers
+-   [delegated identifiers](https://weboftrust.github.io/WOT-terms/docs/glossary/delegated-identifier.md)

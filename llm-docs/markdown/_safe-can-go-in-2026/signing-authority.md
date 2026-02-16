@@ -1,0 +1,5 @@
+# signing-authority
+
+The authority to sign on behalf of the controller of the authoritative key pair. Often in situation where delegation has taken place, e.g. a custodial agent. These are limited rights because [rotation authority](https://weboftrust.github.io/WOT-terms/docs/glossary/rotation-authority.md) is not included.
+
+The original controller of an [AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier.md) can hold exclusive [rotation authority](https://weboftrust.github.io/WOT-terms/docs/glossary/rotation-authority.md). Because control authority is split between two key sets, the first for signing-authority and the second ([pre-rotated](https://weboftrust.github.io/WOT-terms/docs/glossary/pre-rotation.md)) for [rotation authority](https://weboftrust.github.io/WOT-terms/docs/glossary/rotation-authority.md), the associated thresholds and key list can be structured in such a way that a designated [custodial agent](https://weboftrust.github.io/WOT-terms/docs/glossary/custodial-agent.md) can hold signing authority while the original controller can hold exclusive rotation authority.

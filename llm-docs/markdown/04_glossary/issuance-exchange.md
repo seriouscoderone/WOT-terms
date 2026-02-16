@@ -1,0 +1,5 @@
+# issuance-exchange
+
+A special case of a [presentation exchange](https://weboftrust.github.io/WOT-terms/docs/glossary/presentation-exchange.md) where the [Discloser](https://weboftrust.github.io/WOT-terms/docs/glossary/discloser.md) is the [Issuer](https://weboftrust.github.io/WOT-terms/docs/glossary/issuer.md) of the origin (Primary) ACDC of the [DAG](https://weboftrust.github.io/WOT-terms/docs/glossary/directed-acyclic-graph.md) formed by the set of chained [ACDC](https://weboftrust.github.io/WOT-terms/docs/glossary/authentic-chained-data-container.md)s so disclosed.
+
+In an issuance exchange, when the origin ACDC has an [Issuee](https://weboftrust.github.io/WOT-terms/docs/glossary/issuee.md), the [Disclosee](https://weboftrust.github.io/WOT-terms/docs/glossary/disclosee.md) MAY also be the origin ACDC's Issuee.

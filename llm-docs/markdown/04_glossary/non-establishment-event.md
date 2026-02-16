@@ -1,0 +1,18 @@
+# non-establishment-event
+
+a Key event that does not change the current Key state for an AID. Typically, the purpose of a Non-establishment event is to anchor external data to a given Key state as established by the most recent prior Establishment event for an AID.
+Source: Dr. S. Smith
+
+A key event tieing or anchoring a data payload to the [key event log](https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-log.md) of an identifier. This data payload includes a set of one or more [seals](https://weboftrust.github.io/WOT-terms/docs/glossary/seal.md) each of which anchor data to the key event.
+The data payload event may be used to make verifiable, authoritative statements on behalf of the identifier controller.
+These might include authorizations of encryption keys, communication routes, service endpoints, and so forth.
+
+Transactions or workflows composed of non-establishment events are secured by virtue of being included in the verifiable key event sequence with the verifiable authoritative establishment events.
+
+A non-establishment event is a key event that does not change the current key-state for an AID.
+
+Source [KERI Whitepaper Section 7.22 page 46](https://github.com/SmithSamuelM/Papers/blob/master/whitepapers/KERI_WP_2.x.web.pdf)
+Source [Sam Smith](https://github.com/WebOfTrust/ietf-keri/blob/main/draft-ssmith-keri.md#basic-terminology)
+
+A non-establishment event is a key event that does not change the current key-state for an [identifier](https://weboftrust.github.io/WOT-terms/docs/glossary/identifier.md). The event (only) ties or anchors digital data to the [key event log](https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-log.md) of the identifier.
+_(@henkvancann)_

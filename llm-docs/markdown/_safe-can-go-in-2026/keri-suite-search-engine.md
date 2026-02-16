@@ -1,0 +1,5 @@
+# keri-suite-search-engine
+
+KERISSE is the Docusaurus [self-education site](https://weboftrust.github.io/WOT-terms/) of Web-of-Trust GitHub repo with Typesense search facilities. Because of its focus on well-versed developers in the field of [SSI](https://weboftrust.github.io/WOT-terms/docs/glossary/SSI.md) and the support of their journey to understand the structure of the code and how things work in the [KERI suite](https://weboftrust.github.io/WOT-terms/docs/glossary/keri-suite.md) it's more a search engine that drills down on documentation.
+
+[kerific](https://weboftrust.github.io/WOT-terms/docs/glossary/kerific.md) is a front-end tool that show all available glossary-definition in [KERISSE](https://weboftrust.github.io/WOT-terms/docs/glossary/KERISSE.md) for matching words in any web text; combined in the [Dictionary SSI](https://weboftrust.github.io/keridoc/docs/dictionary?level=2). This is based on a large JSON file

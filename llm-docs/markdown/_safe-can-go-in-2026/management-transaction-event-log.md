@@ -1,0 +1,3 @@
+# management-transaction-event-log
+
+A 'management [TEL](https://weboftrust.github.io/WOT-terms/docs/glossary/transaction-event-log.md)' will signal the creation of the _Virtual Credential Registry [(VCR)](https://weboftrust.github.io/WOT-terms/docs/glossary/VCR.md)_ and track the list of _Registrars_ that will act as _[Backers](https://weboftrust.github.io/WOT-terms/docs/glossary/backer.md)_ for the individual _transaction event logs (TELs)_ for each [virtual credential](https://weboftrust.github.io/WOT-terms/docs/glossary/virtual-credential.md) (VC).

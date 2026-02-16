@@ -1,0 +1,3 @@
+# binding
+
+The technique of connecting two data elements together. In the context of [KERI](https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-receipt-infrastructure.md) it's the association of data or an [identifier](https://weboftrust.github.io/WOT-terms/docs/glossary/identifier.md) with another identifier or a subject (a person, organization or machine), thereby lifting the privacy of the subject through that connection, i.e. **binding**.

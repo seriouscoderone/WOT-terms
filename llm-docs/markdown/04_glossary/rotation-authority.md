@@ -1,0 +1,5 @@
+# rotation-authority
+
+The (exclusive) right to rotate the authoritative key pair and establish changed control authority.
+
+The original controller of an [AID](https://weboftrust.github.io/WOT-terms/docs/glossary/autonomic-identifier.md) can hold exclusive rotation authority. Because control authority is split between two key sets, the first for [signing authority](https://weboftrust.github.io/WOT-terms/docs/glossary/signing-authority.md) and the second ([pre-rotated](https://weboftrust.github.io/WOT-terms/docs/glossary/pre-rotation.md)) for rotation authority, the associated thresholds and key list can be structured in such a way that a designated [custodial agent](https://weboftrust.github.io/WOT-terms/docs/glossary/custodial-agent.md) can hold signing authority while the original controller can hold exclusive rotation authority.

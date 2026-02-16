@@ -1,0 +1,5 @@
+# signing-threshold
+
+Is the minimum number of valid signatures to satisfy the requirement for successful verification in a [Threshold Signature Scheme](https://weboftrust.github.io/WOT-terms/docs/glossary/threshold-signature-scheme.md).
+
+In a 2-of-3 signature scheme the threshold is 2. This means that 2 valid signatures are enough to fulfil the required signature.

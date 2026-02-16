@@ -1,0 +1,6 @@
+# best-available-data-acceptance-mechanism
+
+The BADA security model provides a degree of [replay attack](https://weboftrust.github.io/WOT-terms/docs/glossary/replay-attack.md) protection. The attributate originator (issuer, author, source) is provided by an attached signature couple or quadruple. A single reply could have multiple originators. When used as an [authorization](https://weboftrust.github.io/WOT-terms/docs/glossary/authorization.md) the reply attributes may include the identifier of the authorizer and the logic for processing the associated route may require a matching attachment. BADA is part of [KERI](https://weboftrust.github.io/WOT-terms/docs/glossary/KERI.md)'s [Zero Trust Computing Architecture for Data Management](https://hackmd.io/Qsrfj7Y-TIGl5ESvrxWGxw): How to support Secure Async Data Flow Routing in KERI enabled Applications.
+
+-   [Run off the crud](https://weboftrust.github.io/WOT-terms/docs/glossary/run-off-the-crud.md)
+-   [RUN](https://weboftrust.github.io/WOT-terms/docs/glossary/read-update-nullify.md)

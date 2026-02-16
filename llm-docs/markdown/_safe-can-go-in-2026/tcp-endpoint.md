@@ -1,0 +1,7 @@
+# tcp-endpoint
+
+This is a [service endpoint](https://weboftrust.github.io/WOT-terms/docs/glossary/service-endpoint.md) of the web [transmission control protocol](https://weboftrust.github.io/WOT-terms/docs/glossary/transmission-control-protocol.md)
+
+Because TCP packets do not include a session identifier, both endpoints identify the session using the client's address and port. Whenever a packet is received, the TCP implementation must perform a lookup on this table to find the destination process.
+
+More on source [Wikipedia](https://en.wikipedia.org/wiki/Transmission_Control_Protocol)

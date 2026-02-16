@@ -1,0 +1,5 @@
+# internal-inconsistency
+
+Internal is used to describe things that exist or happen inside an [entity](https://weboftrust.github.io/WOT-terms/docs/glossary/entity.md). In our scope of digital [identifiers](https://weboftrust.github.io/WOT-terms/docs/glossary/identifier.md) its (in)consistency is considered within the defining data structures and related data stores.
+
+In [KERI](https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-receipt-infrastructure.md), you are protected against internal inconsistency by the hash chain data structure of the [KEL](https://weboftrust.github.io/WOT-terms/docs/glossary/key-event-log.md) because the only [authority](https://weboftrust.github.io/WOT-terms/docs/glossary/authority.md) that can sign the log is the [controller](https://weboftrust.github.io/WOT-terms/docs/glossary/controller.md) itself.

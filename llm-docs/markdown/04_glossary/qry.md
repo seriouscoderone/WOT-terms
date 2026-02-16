@@ -1,0 +1,3 @@
+# qry
+
+qry = query
